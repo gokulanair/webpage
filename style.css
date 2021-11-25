@@ -191,7 +191,7 @@ li {
     cursor: pointer;
 }
 /* about section */
-#section {
+.section {
     grid-area: section;
     margin-top: 5rem;
 }
@@ -276,7 +276,7 @@ li {
     opacity: 0%;
 }
 /* footer */
-#footer {
+.footer {
     grid-area: footer;
     background: var(--primary);
     height: 20rem;
@@ -390,7 +390,7 @@ li {
     .nav-links a:focus {
         background: none;
     }
-    #footer {
+    .footer {
         height: 10rem;
     }
     .footer-items {
