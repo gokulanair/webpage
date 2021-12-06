@@ -315,7 +315,7 @@ li {
 /* scroll top arrow */
 .arrow {
     position: absolute;
-    bottom: 21rem;
+    bottom: 18.7rem;
     right: 1rem;
     width: 3rem;
     height: 3rem;
@@ -398,7 +398,7 @@ li {
         margin: 0;
     }
     .arrow {
-        bottom: 12rem;
+        bottom: 9.35rem;
         right: 2rem;
     }
 }
