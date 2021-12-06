@@ -141,9 +141,7 @@ li {
     padding: 1rem 10%;
     transition: background 500ms ease-in-out;
 }
-.nav-links a:hover {
-    background: var(--secondary);
-}
+.nav-links a:hover,
 .nav-links a:focus {
     background: var(--secondary);
 }
@@ -351,16 +349,13 @@ li {
         background: var(--primary);
     }
     .nav-links {
-        display: inline;
+        display: block;
+        margin: 1.85rem 10% 1.85rem 30%;
     }
     .nav-links ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 73.3%;
-        height: 2.5rem;
-        margin: auto;
-        padding: 3.5rem 0rem;
     }
     .nav-links a {
         display: block;
