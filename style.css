@@ -291,39 +291,53 @@ li {
     position: relative;
 }
 .footer-items {
-    color: #fff;
-    padding: 2.5rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.footer-items h2 {
-    font-size: 1.75rem;
+    margin: 2rem 10%;
 }
 .footer-items h3 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 1rem 0;
+    font-size: 2rem;
+    color: var(--white);
 }
-.btn-footer {
-    margin: 1rem 0;
+.footer-items li {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--white);
+    border-radius: 3.5rem;
+    margin: 1.5rem 0;
+    overflow: hidden;
+    position: relative;
+    transition: width 400ms ease-out;
 }
-.btn-footer a {
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 0.75rem;
-    border: 0.1rem solid var(--white);
-    border-radius: 3rem;
+.footer-items li:hover {
+    width: 100%;
 }
-.btn-footer a:hover {
+.footer-items li a {
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    line-height: 3.75rem;
+    text-align: center;
     color: var(--primary);
     background: var(--white);
-    cursor: pointer;
+    border: 0.1rem solid var(--white);
+    border-radius: 3.5rem;
+    position: relative;
 }
-.copy {
-    font-size: 1.2rem;
+.footer-items li a:hover {
+    color: var(--white);
+    background: var(--primary);
+}
+.footer-items h4 {
+    position: absolute;
+    top: 0.8rem;
+    left: 5rem;
+    font-size: 1.35rem;
+    color: var(--primary);
+}
+.footer-items span {
+    font-size: 1.35rem;
     font-weight: bold;
-    margin-top: 1rem;
+    color: var(--white);
 }
 /* scroll top arrow */
 .arrow {
@@ -397,14 +411,21 @@ li {
         background: none;
     }
     .footer-items {
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
+        margin: 1rem 10%;
     }
-    .footer-items h3,
-    .btn-footer,
-    .copy {
-        margin: 0;
+    .footer-items ul {
+        width: 45%;
+        text-align: center;
+        padding-top: 0.5rem;
+    }
+    .footer-items li {
+        display: inline-block;
+    }
+    .footer-items li:hover {
+        width: 75%;
     }
     .arrow {
         top: -4.8rem;
