@@ -175,15 +175,15 @@ li {
     border-radius: 10rem;
     margin: auto;
 }
-.name {
+.name h2 {
     color: var(--white);
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
-    margin-bottom: 3rem;
 }
 .btn-profile {
     display: flex;
     justify-content: center;
+    margin-top: 3rem;
 }
 .btn-profile a {
     font-size: 1.3rem;
