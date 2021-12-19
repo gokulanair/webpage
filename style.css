@@ -168,13 +168,6 @@ li {
 .profile-items {
     margin: 10rem 0;
 }
-.dp {
-    width: 10rem;
-    height: 10rem;
-    background: var(--primary);
-    border-radius: 10rem;
-    margin: auto;
-}
 .name h2 {
     color: var(--white);
     font-size: 6rem;
@@ -190,13 +183,12 @@ li {
     font-weight: bold;
     color: var(--white);
     padding: 1rem;
-    border: 0.2rem solid;
+    border: 0.2rem solid var(--white);
     border-radius: 3rem;
 }
 .btn-profile a:hover {
     color: var(--secondary);
     background: var(--white);
-    border: 0.2rem solid var(--white);
     cursor: pointer;
 }
 /* about section */
