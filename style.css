@@ -4,8 +4,8 @@
     --black: #000;
     --white: #fff;
     --green: #47ff63;
-    --lightblue: #e9fcff;
-    --skyblue: #edffe3;
+    --lightblue: #e2e8ed;
+    --skyblue: #ecf0f3;
     --primary: #ff6347; /* tomato */
     --secondary: #ff3814;
 }
@@ -194,7 +194,8 @@ li {
 /* about section */
 .section {
     grid-area: section;
-    margin-top: 5rem;
+    padding-top: 10rem;
+    background: var(--skyblue);
 }
 .about {
     display: flex;
