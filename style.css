@@ -304,6 +304,7 @@ li {
 }
 .footer-items li:hover {
     width: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
 .footer-items li a {
     display: block;
