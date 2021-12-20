@@ -161,7 +161,6 @@ li {
 /* profile area */
 #profile {
     grid-area: main;
-    margin-bottom: 5rem;
     background: url('img/technology.jpg');
     background-size: cover;
 }
